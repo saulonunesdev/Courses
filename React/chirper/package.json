@@ -1,0 +1,28 @@
+{
+  "name": "chirper",
+  "version": "1.0.0",
+  "description": "A very simple twitter clone using react and flux",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saulo Nunes",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.0",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "locallydb": "0.0.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
