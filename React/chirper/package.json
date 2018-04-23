@@ -1,7 +1,7 @@
 {
   "name": "chirper",
   "version": "1.0.0",
-  "description": "A very simple twitter clone using react and flux",
+  "description": "A very simple twitter clone built with React and Flux",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
     "express-session": "^1.15.6",
     "locallydb": "0.0.9",
     "passport": "^0.4.0",
