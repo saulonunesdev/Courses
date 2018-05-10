@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">   
+    <head>
+        <meta charset="UTF-8">
+        <title>My App</title>
+        <script src="lib/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers/testControlModuleVar.js"></script>
+        <script src="js/controllers/testControlModule.js"></script>
+    </head>
+    <body>
+        <div ng-controller="TestController">
+            <h1>TestCont1: {{TestObject.Title}}</h1>
+            <h2>{{TestObject.SubTitle}}</h2>
+            <p>{{2 + 2}}</p>
+            <p>{{fname}}</p>
+            <p>TestScope: {{TestObject.bindOutPut}}</p>
+            <button ng-click="timesTwo()">Multiply</button>
+            <br />
+            <br />
+            <input ng-model="fname">
+            <sn-welcome-message></sn-welcome-message>
+        </div>
+        <hr />
+        <div ng-controller="TestCont">
+            <h1>TestCont2: {{lname}}</h1>
+            <input ng-model="mValue | currency: '% ': '4' ">
+            <button ng-click="expo()">Expo</button>
+            <button ng-click="Hithere()">Hi</button>
+        </div>
+        <hr /> 
+        <input ng-controller="TestController" ng-model="fname">
+        <input ng-controller="TestController" ng-model="Person.Fname | uppercase">
+        <input ng-controller="TestController" ng-model="Person.Lname | lowercase">
+        <br />
+        <br />
+        <button ng-controller="TestController" ng-click="timesTwo()">Multiply</button>
+        <hr /> 
+        <button ng-controller="TestCont" ng-click="hei()">Hei</button>
+    </body>
+</html>
