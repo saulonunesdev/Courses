@@ -8,3 +8,4 @@ sudo apt-get install -y nodejs
 
 echo "Install Packages"
 sudo npm install -g typescript
+sudo npm install -g nodemon
