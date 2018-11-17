@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>O Evento Onclick</h1>
+
+        <p>O Evento Onclick é utilizado para ativar uma função quando o elemento é clicado.</p>
+
+        <p>Clique no Botão para ativar a função que irá mostrar "Olá Mundo".</p>
+
+        <button onclick="myFunction()">Click</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Hello World";
+                console.log("Clicado");
+            }
+        </script>
+    </body>
+</html>
