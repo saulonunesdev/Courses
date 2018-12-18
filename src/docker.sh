@@ -21,5 +21,10 @@ echo "Grant SUDO to Docker"
 sudo groupadd docker
 sudo usermod -aG docker vagrant
 
+echo "Install Docker Machine"
+base=https://github.com/docker/machine/releases/download/v0.16.0 &&
+  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
+  sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+
 echo "Docker Test"
-docker run hello-world
+docker run docker/whalesay cowsay So Far So Good
