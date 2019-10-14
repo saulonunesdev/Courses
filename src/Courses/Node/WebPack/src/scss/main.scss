@@ -3,3 +3,8 @@ $base-color: blue;
 body {
   background: $base-color;
 }
+
+p {
+  font-size: responsive;
+  color: white;
+}

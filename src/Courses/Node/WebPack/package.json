@@ -5,16 +5,22 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "standard"
+    "test": "standard",
+    "watch": "webpack --watch"
   },
   "author": "Saulo Nunes",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.5",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "lost": "^8.3.1",
     "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "rucksack-css": "^1.0.2",
     "sass-loader": "^8.0.0",
     "standard": "^14.3.1",
     "style-loader": "^1.0.0",
@@ -25,5 +31,9 @@
     "ignore": [
       "/dist/"
     ]
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
