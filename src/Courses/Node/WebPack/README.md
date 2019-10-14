@@ -7,6 +7,8 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 | - | - |
 | npm install   | Install Dependencies |
 | npm run build | Build the Bundle     |
+| npm test      | Run Standard JS Text |
+| npm tun watch | Run Webpack Watch Mode |
 
 
 ### Package.json Description
@@ -20,3 +22,4 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 
 * [**AutoPrefix**](https://github.com/postcss/autoprefixer)
 * [**StandardJs**](https://www.npmjs.com/package/standard)
+* [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
