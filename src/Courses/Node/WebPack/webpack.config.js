@@ -2,6 +2,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = {
@@ -77,6 +78,16 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'Webpack'
-    })
+    }),
+    new BrowserSyncPlugin(
+      {
+        host: '192.168.15.11',
+        port: 3000,
+        proxy: 'http://localhost:8080/'
+      },
+      {
+        reload: false
+      }
+    )
   ]
 }

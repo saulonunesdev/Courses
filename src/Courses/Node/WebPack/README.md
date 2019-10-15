@@ -20,7 +20,23 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 
 ### Dependencies
 
-* [**AutoPrefix**](https://github.com/postcss/autoprefixer)
-* [**StandardJs**](https://www.npmjs.com/package/standard)
-* [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
-* [WebPackDevServer](https://webpack.js.org/guides/development/#using-webpack-dev-server)
+- [**AutoPrefix**](https://github.com/postcss/autoprefixer)
+- [**StandardJs**](https://www.npmjs.com/package/standard)
+- [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
+- [WebPackDevServer](https://webpack.js.org/guides/development/#using-webpack-dev-server)
+- [BrowserSync](https://www.browsersync.io/)
+- [BrowserSyncPlugin](https://github.com/Va1/browser-sync-webpack-plugin)
+
+
+### BrowserSync
+
+- #### Dependencies
+
+```bash
+npm install -g browser-sync
+npm install --save-dev browser-sync
+```
+
+- #### User Interface
+
+> Go to http://localhost:3001
