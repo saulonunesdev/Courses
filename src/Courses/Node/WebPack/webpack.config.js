@@ -1,18 +1,35 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: {
+    app: './src/index.js',
+    about: './src/js/about.js'
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   stats: {
     children: false
   },
   devtool: 'inline-source-map',
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.scss$/,
+          chunks: 'all',
+          enforce: true
+        }
+      }
+    }
+  },
   module: {
     rules: [
       {
@@ -50,9 +67,13 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Webpack'
     })
   ]
 }
