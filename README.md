@@ -1,4 +1,4 @@
-# Courses List v1.1.2
+# Courses List v1.1.3
 
 | Content | Course | Folder | Certificate  | Date | Length |
 | :-----: |:------:| :-----:| :----------: | :--: | :----: |
@@ -10,3 +10,4 @@
 | <img src="src/img/1docker.png" alt="Docker" width="30" height="30">  | [Docker and Containers: The Essentials](https://www.udemy.com/docker-and-containers-the-essentials) | [Source](src/Courses/Docker/Nginx/) | [:bowtie:](https://www.udemy.com/certificate/UC-Q8IN5RO7/) | Nov 28, 2018 | 01:12h |
 | <img src="src/img/1docker.png" alt="Docker" width="30" height="30">  | [Getting Started With Docker: Key Concepts for Beginners](https://www.udemy.com/docker-quick-start/) | [Source](src/Courses/Docker/Nginx/) | :sob: | Nov 28, 2018 | 02:00h |
 | <img src="src/img/1docker.png" alt="Docker" width="30" height="30">  | [Docker Swarm: BEGINNER + ADVANCED](https://www.udemy.com/docker-swarm-from-beginner-to-advanced-with-docker-cluster-hosting/) | [Source](src/Courses/Docker/Nginx/) | [:bowtie:](https://www.udemy.com/certificate/UC-H0F234IO/) | Dec 04, 2018 | 01:35h |
+| <img src="src/img/webpack.png" alt="WebPack" width="30" height="30">  | [Learn Webpack 2 from scratch](https://www.udemy.com/course/learn-webpack-2-from-scratch/) | [Source](src/Courses/Node/WebPack/) | :sob: | Oct 15, 2019 | 01:30h |
