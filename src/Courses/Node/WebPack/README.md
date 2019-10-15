@@ -9,7 +9,7 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 | npm run build | Build the Bundle     |
 | npm test      | Run Standard JS Text |
 | npm tun watch | Run Webpack Watch Mode |
-
+| npm start     | Run Webpack Dev Server |
 
 ### Package.json Description
 
@@ -23,3 +23,4 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 * [**AutoPrefix**](https://github.com/postcss/autoprefixer)
 * [**StandardJs**](https://www.npmjs.com/package/standard)
 * [MiniCssExtractPlugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
+* [WebPackDevServer](https://webpack.js.org/guides/development/#using-webpack-dev-server)

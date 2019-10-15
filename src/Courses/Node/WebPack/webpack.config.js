@@ -18,6 +18,9 @@ module.exports = {
     children: false
   },
   devtool: 'inline-source-map',
+  devServer: {
+    contentBase: './dist'
+  },
   optimization: {
     splitChunks: {
       cacheGroups: {
