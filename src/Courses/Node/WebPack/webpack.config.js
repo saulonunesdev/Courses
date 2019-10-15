@@ -77,7 +77,14 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new HtmlWebpackPlugin({
-      title: 'Webpack'
+      filename: 'index.html',
+      template: 'src/views/index.html',
+      chunks: ['app', 'styles']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'about.html',
+      template: 'src/views/about.html',
+      chunks: ['about', 'styles']
     }),
     new BrowserSyncPlugin(
       {

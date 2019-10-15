@@ -26,6 +26,7 @@ Course Link -> https://www.udemy.com/course/learn-webpack-2-from-scratch
 - [WebPackDevServer](https://webpack.js.org/guides/development/#using-webpack-dev-server)
 - [BrowserSync](https://www.browsersync.io/)
 - [BrowserSyncPlugin](https://github.com/Va1/browser-sync-webpack-plugin)
+- [HtmlWebPackPlugin](https://github.com/jantimon/html-webpack-plugin#options)
 
 
 ### BrowserSync
