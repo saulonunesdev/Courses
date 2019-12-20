@@ -10,7 +10,7 @@
   "author": "Saulo Nunes",
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^5.4.0",
+    "mongoose": "^5.7.5",
     "restify": "7.3.0",
     "restify-errors": "^6.1.1"
   },
